@@ -1,0 +1,20 @@
+{
+  "name": "thiago",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src",
+    "start": "tsx watch src/index.ts" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.10.2"
+  }
+}
